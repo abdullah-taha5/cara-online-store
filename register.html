@@ -1,0 +1,45 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>Cara Online Store | Register Page</title>
+  </head>
+  <body>
+    <!-- Start Header -->
+    <section id="header">
+      <a href="index.html" class="logo"><img src="./img/logo.png" alt="" /></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+
+          <a href="#" id="close"><i class="far fa-times"></i></a>
+        </ul>
+      </div>
+      <div id="mobile-size">
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+    <!-- End Header -->
+
+    <section class="section-form">
+      <h2>Register User</h2>
+      <form novalidate>
+        <input type="text" placeholder="Username" id="username" />
+        <input type="email" placeholder="Email" id="email" />
+        <input type="password" placeholder="Password" id="password" />
+        <input type="submit" value="sign up" id="sign-up" />
+      </form>
+    </section>
+    <!-- javascript -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/register.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
